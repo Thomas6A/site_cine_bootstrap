@@ -6,6 +6,8 @@ body {
   main img {
     animation: 1s ease-out 0s 1 slideInFromLeft;
     transition: all 1s;
+    width: 175px;
+    height: 240px !important;
   }
   @keyframes slideInFromLeft {
     0% {
@@ -18,4 +20,11 @@ body {
   main img:hover {
     transition: all 0.5s;
     transform: scale(1.2);
+  }
+
+  @media screen and (max-width: 1180px) {
+    main img{
+      height: auto !important;
+    }
+    
   }

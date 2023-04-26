@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+    <link
+      rel="stylesheet"
+      href="node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
+  </head>
+
+  <body>
+    <header class="mb-lg-5 mb-0">
+      <nav
+        class="navbar navbar-expand-lg flex-sm-nowrap flex-wrap fixed-top bg-white"
+      >
+        <div class="container-fluid">
+          <img
+            src="Image/depositphotos_137767998-stock-illustration-cinema-old-classic-camera-logo.jpg"
+            alt="logo"
+            class="col-1"
+          />
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse flex-grow-1 justify-content-end"
+            id="navbarSupportedContent"
+          >
+            <ul class="navbar-nav mx-5">
+              <li class="nav-item">
+                <a class="nav-link" href="accueil.html">Accueil</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="films.html">Films</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link" href="acteur.html">Acteurs</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >Contacts</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div class="opacity-0 mb-5">espace</div>
+      <form class="col-10 m-auto">
+        <fieldset>
+          <div class="form-group">
+            <label for="formGroupExampleInput">Votre Nom : </label>
+            <input
+              type="text"
+              class="form-control"
+              id="formGroupExampleInput"
+              placeholder="Votre Nom"
+            />
+          </div>
+
+          <div class="form-group">
+            <label for="exampleInputEmail1">Votre e-mail : </label>
+            <input
+              type="email"
+              class="form-control"
+              id="exampleInputEmail1"
+              aria-describedby="emailHelp"
+              placeholder="exemple@mail.com"
+            />
+          </div>
+
+          <div class="form-group">
+            <label for="Sujet">Sujet du message : </label>
+            <input type="text" class="form-control" id="Sujet" />
+          </div>
+
+          <div class="form-group">
+            <label for="exampleFormControlTextarea1">Votre message : </label>
+            <textarea
+              class="form-control"
+              id="exampleFormControlTextarea1"
+              rows="5"
+            ></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-secondary w-100">Envoyer</button>
+        </fieldset>
+      </form>
+    </main>
+    <footer
+      class="row align-content-center m-2 justify-content-around bg-white d-none d-lg-flex"
+    >
+      <h3 class="col-2">Contacts :</h3>
+      <p class="col-2">Tél : 03789165894</p>
+      <p class="col-2">Mail : <a href="mailto:email@exemple.fr">contact</a></p>
+      <p class="col-4">Adresse : 54 rue du cinéma bouchain 59111</p>
+      <a href="twitter.com" class="col-1"
+        ><img src="Image/twitter.png" alt="logo de twitter" class="col-5"
+      /></a>
+      <a href="facebook.com" class="col-1"
+        ><img src="Image/facebook.png" alt="logo de twitter" class="col-5"
+      /></a>
+    </footer>
+
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="node_modules/popper.js/dist/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+  </body>
+</html>
